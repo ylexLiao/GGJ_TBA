@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-transparent-water-droplet-illustration-drop-bubble-transparency-and-translucency-beautiful-water-drops-blue-water-glass-water-drops-thumbnail_0: -2984953259293001561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
