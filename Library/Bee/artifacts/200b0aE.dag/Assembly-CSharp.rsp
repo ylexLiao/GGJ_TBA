@@ -441,8 +441,12 @@
 "Assets/Scripts/CardHoverEffect.cs"
 "Assets/Scripts/CharacterSelection.cs"
 "Assets/Scripts/CustomCursor.cs"
+"Assets/Scripts/EventLogManager.cs"
+"Assets/Scripts/FinanceManager.cs"
+"Assets/Scripts/LineChartManager.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/SetResolution.cs"
+"Assets/Scripts/StockManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
