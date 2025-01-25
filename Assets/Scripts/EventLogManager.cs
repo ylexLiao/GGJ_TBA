@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EventLogManager : MonoBehaviour
+public class EventLogger : MonoBehaviour
 {
-    public Text eventLogText;
+    public Text logText;
 
     public void AddEvent(string message)
     {
-        eventLogText.text += message + "\n";
-        Debug.Log("新事件：" + message);
+        logText.text += $"{message}\n";
+        Debug.Log($"Event Logged: {message}");
     }
 }
