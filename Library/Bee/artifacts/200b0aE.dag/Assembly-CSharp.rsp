@@ -439,8 +439,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.34f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/BubbleSelection.cs"
 "Assets/Scripts/CardHoverEffect.cs"
+"Assets/Scripts/CharacterSelection.cs"
 "Assets/Scripts/CustomCursor.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/SetResolution.cs"
 -langversion:9.0
 /deterministic
 /optimize+

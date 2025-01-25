@@ -68,19 +68,43 @@ public class BubbleSelection : MonoBehaviour
     }
 
     // 鼠标点击泡泡
+    // public void OnBubbleSelected(BaseEventData eventData)
+    // {
+    //     PointerEventData pointerEventData = eventData as PointerEventData;
+
+    //     // 获取被点击的泡泡对象
+    //     GameObject bubble = pointerEventData.pointerPress;
+
+    //     if (bubble != null)
+    //     {
+    //         Debug.Log("Bubble Popped: " + bubble.name);
+    //         StartCoroutine(PopBubble(bubble)); // 播放破裂动画
+    //     }
+    // }
+
     public void OnBubbleSelected(BaseEventData eventData)
+{
+    PointerEventData pointerEventData = eventData as PointerEventData;
+
+    // 获取被点击的泡泡对象
+    GameObject bubble = pointerEventData.pointerPress;
+
+    if (bubble != null)
     {
-        PointerEventData pointerEventData = eventData as PointerEventData;
+        Debug.Log("Bubble Popped: " + bubble.name);
 
-        // 获取被点击的泡泡对象
-        GameObject bubble = pointerEventData.pointerPress;
-
-        if (bubble != null)
+        // 如果点击的是 1929 泡泡，加载 CharacterSelection 场景
+        if (bubble.name == "Bubble_1929")
         {
-            Debug.Log("Bubble Popped: " + bubble.name);
-            StartCoroutine(PopBubble(bubble)); // 播放破裂动画
+            UnityEngine.SceneManagement.SceneManager.LoadScene("CharacterSelection");
+        }
+        else
+        {
+            Debug.Log("This bubble does not have an associated scene.");
         }
     }
+}
+
 
     private IEnumerator PopBubble(GameObject bubble)
     {
