@@ -1,0 +1,5454 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-firstpass:
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.FadeEffect
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.FlashEffect
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.GUIButton
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.GUIControl
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.GUILabel
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.GUIProgressBar
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.GUIRoot
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.GUITextField
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.SlideEffect
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.TimerEffect
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.TypewriterEffect
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.UnityDialogueUI
+    - PixelCrushers.DialogueSystem.UnityGUI.Wrappers.UnityTextFieldUI
+    Assembly-CSharp-firstpass.dll:
+    - PixelCrushers.DialogueSystem.Wrappers.BringSubtitlePanelToFrontOnFocus
+    - PixelCrushers.DialogueSystem.Wrappers.DialogueDatabase
+    - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemController
+    - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemEvents
+    - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemSceneEvents
+    - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemTrigger
+    - PixelCrushers.DialogueSystem.Wrappers.StandardDialogueUI
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIButtonTemplate
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIContinueButtonFastForward
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIFoldoutTemplate
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIInputField
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIMenuPanel
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestLogWindow
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestTitleButtonTemplate
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestTrackTemplate
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestTracker
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIResponseButton
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUISelectorElements
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUISubtitlePanel
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUITextTemplate
+    - PixelCrushers.DialogueSystem.Wrappers.StandardUIToggleTemplate
+    - PixelCrushers.DialogueSystem.Wrappers.UIButtonKeyTrigger
+    - PixelCrushers.DialogueSystem.Wrappers.UnityUIScrollbarEnabler
+    - PixelCrushers.DialogueSystem.Wrappers.UnityUITypewriterEffect
+    - PixelCrushers.Wrappers.DeselectPreviousOnPointerEnter
+    - PixelCrushers.Wrappers.EditorNote
+    - PixelCrushers.Wrappers.InputDeviceManager
+    - PixelCrushers.Wrappers.InstantiatePrefabs
+    - PixelCrushers.Wrappers.UIButtonKeyTrigger
+    - PixelCrushers.Wrappers.UIPanel
+    - PixelCrushers.Wrappers.UIScrollbarEnabler
+    Assembly-CSharp.dll:
+    - Background
+    - BubbleSelection
+    - CardHoverEffect
+    - CharacterSelection
+    - EasyTransition.Transition
+    - EasyTransition.TransitionManager
+    - EasyTransition.TransitionSettings
+    - EventUIManager
+    - FinanceManager
+    - GameManager
+    - Game_1929
+    - LineChartManager
+    - MainMenu
+    - SetResolution
+    - TurnManager
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
+    - UnityEngine.U2D.Animation.DeformationManager
+    - UnityEngine.U2D.Animation.DeformationManagerUpdater
+    Unity.2D.IK.Editor.dll:
+    - UnityEditor.U2D.IK.IKEditorManager
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerObject
+    - UnityEngine.Rendering.UI.DebugUIHandlerObjectList
+    - UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerProgressBar
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerValueTuple
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.ProbeVolumesOptions
+    - UnityEngine.Rendering.VolumeProfile
+    Unity.RenderPipelines.Universal.2D.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Light2D
+    - UnityEngine.Rendering.Universal.Renderer2DData
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
+    - UnityEngine.Rendering.Universal.ChannelMixer
+    - UnityEngine.Rendering.Universal.ChromaticAberration
+    - UnityEngine.Rendering.Universal.ColorAdjustments
+    - UnityEngine.Rendering.Universal.ColorCurves
+    - UnityEngine.Rendering.Universal.ColorLookup
+    - UnityEngine.Rendering.Universal.DepthOfField
+    - UnityEngine.Rendering.Universal.FilmGrain
+    - UnityEngine.Rendering.Universal.LensDistortion
+    - UnityEngine.Rendering.Universal.LiftGammaGain
+    - UnityEngine.Rendering.Universal.MotionBlur
+    - UnityEngine.Rendering.Universal.PaniniProjection
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.ScreenSpaceLensFlare
+    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+    - UnityEngine.Rendering.Universal.SplitToning
+    - UnityEngine.Rendering.Universal.Tonemapping
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.Vignette
+    - UnityEngine.Rendering.Universal.WhiteBalance
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Assembly-CSharp:
+    - GameState
+    Assembly-CSharp-firstpass:
+    - PixelCrushers.DialogueSystem.Actor
+    - PixelCrushers.DialogueSystem.Condition
+    - PixelCrushers.DialogueSystem.Conversation
+    - PixelCrushers.DialogueSystem.ConversationOverrideDisplaySettings
+    - PixelCrushers.DialogueSystem.DialogueDatabase/SyncInfo
+    - PixelCrushers.DialogueSystem.DialogueEntry
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/BarkEvents
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/ConversationEvents
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/PauseEvents
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/QuestEvents
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/ResponsesEvent
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/SequenceEvents
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/StringEvent
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/SubtitleEvent
+    - PixelCrushers.DialogueSystem.DialogueSystemEvents/TransformEvent
+    - PixelCrushers.DialogueSystem.DisplaySettings
+    - PixelCrushers.DialogueSystem.DisplaySettings/AlertSettings
+    - PixelCrushers.DialogueSystem.DisplaySettings/BarkSettings
+    - PixelCrushers.DialogueSystem.DisplaySettings/CameraSettings
+    - PixelCrushers.DialogueSystem.DisplaySettings/InputSettings
+    - PixelCrushers.DialogueSystem.DisplaySettings/LocalizationSettings
+    - PixelCrushers.DialogueSystem.DisplaySettings/SubtitleSettings
+    - PixelCrushers.DialogueSystem.EmphasisSetting
+    - PixelCrushers.DialogueSystem.Field
+    - PixelCrushers.DialogueSystem.InputTrigger
+    - PixelCrushers.DialogueSystem.Link
+    - PixelCrushers.DialogueSystem.PersistentDataSettings
+    - PixelCrushers.DialogueSystem.StandardUIAlertControls
+    - PixelCrushers.DialogueSystem.StandardUIDialogueControls
+    - PixelCrushers.DialogueSystem.StandardUIQTEControls
+    - PixelCrushers.DialogueSystem.StandardUIQuestTemplateAlternateDescriptions
+    - PixelCrushers.DialogueSystem.StandardUISelectorElements/AnimationTransitions
+    - PixelCrushers.DialogueSystem.UIAutonumberSettings
+    - PixelCrushers.DialogueSystem.UnityGUI.AutoSize
+    - PixelCrushers.DialogueSystem.UnityGUI.Fit
+    - PixelCrushers.DialogueSystem.UnityGUI.GUIImageParams
+    - PixelCrushers.DialogueSystem.UnityGUI.ImageAnimation
+    - PixelCrushers.DialogueSystem.UnityGUI.Navigation
+    - PixelCrushers.DialogueSystem.UnityGUI.ScaledRect
+    - PixelCrushers.DialogueSystem.UnityGUI.ScaledValue
+    - PixelCrushers.DialogueSystem.UnityGUI.UnityAlertControls
+    - PixelCrushers.DialogueSystem.UnityGUI.UnityDialogueControls
+    - PixelCrushers.DialogueSystem.UnityGUI.UnityResponseMenuControls
+    - PixelCrushers.DialogueSystem.UnityGUI.UnitySubtitleControls
+    - PixelCrushers.DialogueSystem.UnityUITypewriterEffect/AutoScrollSettings
+    - PixelCrushers.DialogueSystem.Variable
+    - PixelCrushers.GameObjectUnityEvent
+    - PixelCrushers.UIInputField
+    - PixelCrushers.UITextField
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.APVLeakReductionModeParameter
+    - UnityEngine.Rendering.BoolParameter
+    - UnityEngine.Rendering.ClampedFloatParameter
+    - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
+    - UnityEngine.Rendering.FloatParameter
+    - UnityEngine.Rendering.IncludeAdditionalRPAssets
+    - UnityEngine.Rendering.MinFloatParameter
+    - UnityEngine.Rendering.NoInterpTextureParameter
+    - UnityEngine.Rendering.ProbeVolumeBakingResources
+    - UnityEngine.Rendering.ProbeVolumeBlendingTextureMemoryBudget
+    - UnityEngine.Rendering.ProbeVolumeDebugResources
+    - UnityEngine.Rendering.ProbeVolumeGlobalSettings
+    - UnityEngine.Rendering.ProbeVolumeRuntimeResources
+    - UnityEngine.Rendering.ProbeVolumeSHBands
+    - UnityEngine.Rendering.ProbeVolumeSceneData
+    - UnityEngine.Rendering.ProbeVolumeTextureMemoryBudget
+    - UnityEngine.Rendering.RenderGraphGlobalSettings
+    - UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtilsResources
+    - UnityEngine.Rendering.RenderPipelineGraphicsSettingsContainer
+    - UnityEngine.Rendering.STP/RuntimeResources
+    - UnityEngine.Rendering.SerializedDictionary`2
+    - UnityEngine.Rendering.ShaderStrippingSetting
+    - UnityEngine.Rendering.TextureCurve
+    - UnityEngine.Rendering.TextureCurveParameter
+    - UnityEngine.Rendering.TextureParameter
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    - UnityEngine.Rendering.Vector2Parameter
+    - UnityEngine.Rendering.Vector3Parameter
+    - UnityEngine.Rendering.Vector4Parameter
+    Unity.RenderPipelines.GPUDriven.Runtime:
+    - UnityEngine.Rendering.GPUResidentDrawerResources
+    Unity.RenderPipelines.Universal.2D.Runtime:
+    - UnityEngine.Rendering.Universal.Light2DBlendStyle
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+    - UnityEngine.Rendering.Universal.DownscaleParameter
+    - UnityEngine.Rendering.Universal.FilmGrainLookupParameter
+    - UnityEngine.Rendering.Universal.HDRACESPresetParameter
+    - UnityEngine.Rendering.Universal.MotionBlurModeParameter
+    - UnityEngine.Rendering.Universal.MotionBlurQualityParameter
+    - UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.RenderGraphSettings
+    - UnityEngine.Rendering.Universal.Renderer2DResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceLensFlareResolutionParameter
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/ProbeVolumeResources
+    - UnityEngine.Rendering.Universal.TemporalAA/Settings
+    - UnityEngine.Rendering.Universal.TonemappingModeParameter
+    - UnityEngine.Rendering.Universal.URPDefaultVolumeProfileSettings
+    - UnityEngine.Rendering.Universal.URPShaderStrippingSetting
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset/TextureResources
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineDebugShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorMaterials
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTextures
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources
+    - UnityEngine.Rendering.Universal.UniversalRendererResources
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_Dropdown/DropdownEvent
+    - TMPro.TMP_Dropdown/OptionData
+    - TMPro.TMP_Dropdown/OptionDataList
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Bounds
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
+    - UnityEngine.Rendering.RenderPipelineGraphicsSettingsCollection
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: LoadGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: ExitGame
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
+    methodName: OnAction
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
+  - assembly: Assembly-CSharp
+    fullTypeName: BubbleSelection
+    methodName: OnBubbleSelected
+  - assembly: Assembly-CSharp
+    fullTypeName: BubbleSelection
+    methodName: OnBubbleExit
+  - assembly: Assembly-CSharp
+    fullTypeName: BubbleSelection
+    methodName: OnBubbleSelected
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Object
+    methodName: set_name
+  - assembly: Assembly-CSharp
+    fullTypeName: Background
+    methodName: LoadScence
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: EndTurnBtnClicked
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: StockExitBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: BuyStockBtnClicked
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Game_1929
+    methodName: SmallBtnClicked2
+  sceneClasses:
+    Assets/Scenes/Background.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 31830}
+    - Class: 114
+      Script: {instanceID: 32192}
+    - Class: 114
+      Script: {instanceID: 32468}
+    - Class: 114
+      Script: {instanceID: 32668}
+    - Class: 114
+      Script: {instanceID: 32934}
+    - Class: 114
+      Script: {instanceID: 33156}
+    - Class: 114
+      Script: {instanceID: 33582}
+    - Class: 114
+      Script: {instanceID: 33980}
+    - Class: 114
+      Script: {instanceID: 35142}
+    - Class: 114
+      Script: {instanceID: 35464}
+    - Class: 114
+      Script: {instanceID: 35474}
+    - Class: 114
+      Script: {instanceID: 36082}
+    - Class: 114
+      Script: {instanceID: 36498}
+    - Class: 114
+      Script: {instanceID: 36566}
+    - Class: 114
+      Script: {instanceID: 37680}
+    - Class: 114
+      Script: {instanceID: 38258}
+    - Class: 114
+      Script: {instanceID: 41552}
+    - Class: 114
+      Script: {instanceID: 41648}
+    - Class: 114
+      Script: {instanceID: 42206}
+    - Class: 114
+      Script: {instanceID: 42308}
+    - Class: 114
+      Script: {instanceID: 43004}
+    - Class: 114
+      Script: {instanceID: 43508}
+    - Class: 114
+      Script: {instanceID: 50794}
+    - Class: 114
+      Script: {instanceID: 50978}
+    - Class: 114
+      Script: {instanceID: 51098}
+    - Class: 114
+      Script: {instanceID: 51262}
+    - Class: 114
+      Script: {instanceID: 51670}
+    - Class: 114
+      Script: {instanceID: 51782}
+    - Class: 114
+      Script: {instanceID: 51838}
+    - Class: 114
+      Script: {instanceID: 51974}
+    - Class: 114
+      Script: {instanceID: 52022}
+    - Class: 114
+      Script: {instanceID: 52036}
+    - Class: 114
+      Script: {instanceID: 52212}
+    - Class: 114
+      Script: {instanceID: 52520}
+    - Class: 114
+      Script: {instanceID: 52612}
+    - Class: 114
+      Script: {instanceID: 52652}
+    - Class: 114
+      Script: {instanceID: 52780}
+    - Class: 114
+      Script: {instanceID: 52892}
+    - Class: 114
+      Script: {instanceID: 53144}
+    - Class: 114
+      Script: {instanceID: 53176}
+    - Class: 114
+      Script: {instanceID: 53408}
+    - Class: 114
+      Script: {instanceID: 53640}
+    - Class: 114
+      Script: {instanceID: 53660}
+    - Class: 114
+      Script: {instanceID: 53740}
+    - Class: 114
+      Script: {instanceID: 53824}
+    - Class: 114
+      Script: {instanceID: 53844}
+    - Class: 114
+      Script: {instanceID: 54232}
+    - Class: 114
+      Script: {instanceID: 54332}
+    - Class: 114
+      Script: {instanceID: 54380}
+    - Class: 114
+      Script: {instanceID: 54752}
+    - Class: 114
+      Script: {instanceID: 54788}
+    - Class: 114
+      Script: {instanceID: 128018}
+    - Class: 114
+      Script: {instanceID: 128054}
+    - Class: 114
+      Script: {instanceID: 128074}
+    - Class: 114
+      Script: {instanceID: 264378}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/BubbleSelection.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 31334}
+    - Class: 114
+      Script: {instanceID: 31830}
+    - Class: 114
+      Script: {instanceID: 32668}
+    - Class: 114
+      Script: {instanceID: 33156}
+    - Class: 114
+      Script: {instanceID: 33582}
+    - Class: 114
+      Script: {instanceID: 34236}
+    - Class: 114
+      Script: {instanceID: 35464}
+    - Class: 114
+      Script: {instanceID: 36566}
+    - Class: 114
+      Script: {instanceID: 38258}
+    - Class: 114
+      Script: {instanceID: 42134}
+    - Class: 114
+      Script: {instanceID: 42206}
+    - Class: 114
+      Script: {instanceID: 42308}
+    - Class: 114
+      Script: {instanceID: 43004}
+    - Class: 114
+      Script: {instanceID: 43092}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/CharacterSelection.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 31222}
+    - Class: 114
+      Script: {instanceID: 31334}
+    - Class: 114
+      Script: {instanceID: 31830}
+    - Class: 114
+      Script: {instanceID: 32668}
+    - Class: 114
+      Script: {instanceID: 33156}
+    - Class: 114
+      Script: {instanceID: 33582}
+    - Class: 114
+      Script: {instanceID: 35464}
+    - Class: 114
+      Script: {instanceID: 36566}
+    - Class: 114
+      Script: {instanceID: 37480}
+    - Class: 114
+      Script: {instanceID: 38258}
+    - Class: 114
+      Script: {instanceID: 38612}
+    - Class: 114
+      Script: {instanceID: 42206}
+    - Class: 114
+      Script: {instanceID: 42308}
+    - Class: 114
+      Script: {instanceID: 43092}
+    - Class: 114
+      Script: {instanceID: 128018}
+    - Class: 114
+      Script: {instanceID: 128054}
+    - Class: 114
+      Script: {instanceID: 128074}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Game_1929.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 31334}
+    - Class: 114
+      Script: {instanceID: 31830}
+    - Class: 114
+      Script: {instanceID: 31980}
+    - Class: 114
+      Script: {instanceID: 32192}
+    - Class: 114
+      Script: {instanceID: 32468}
+    - Class: 114
+      Script: {instanceID: 32668}
+    - Class: 114
+      Script: {instanceID: 32934}
+    - Class: 114
+      Script: {instanceID: 33156}
+    - Class: 114
+      Script: {instanceID: 33582}
+    - Class: 114
+      Script: {instanceID: 33980}
+    - Class: 114
+      Script: {instanceID: 35142}
+    - Class: 114
+      Script: {instanceID: 35346}
+    - Class: 114
+      Script: {instanceID: 35464}
+    - Class: 114
+      Script: {instanceID: 35474}
+    - Class: 114
+      Script: {instanceID: 36082}
+    - Class: 114
+      Script: {instanceID: 36498}
+    - Class: 114
+      Script: {instanceID: 36566}
+    - Class: 114
+      Script: {instanceID: 37680}
+    - Class: 114
+      Script: {instanceID: 37800}
+    - Class: 114
+      Script: {instanceID: 38258}
+    - Class: 114
+      Script: {instanceID: 38612}
+    - Class: 114
+      Script: {instanceID: 41552}
+    - Class: 114
+      Script: {instanceID: 41648}
+    - Class: 114
+      Script: {instanceID: 42130}
+    - Class: 114
+      Script: {instanceID: 42206}
+    - Class: 114
+      Script: {instanceID: 42308}
+    - Class: 114
+      Script: {instanceID: 43004}
+    - Class: 114
+      Script: {instanceID: 43092}
+    - Class: 114
+      Script: {instanceID: 43120}
+    - Class: 114
+      Script: {instanceID: 43508}
+    - Class: 114
+      Script: {instanceID: 50978}
+    - Class: 114
+      Script: {instanceID: 51098}
+    - Class: 114
+      Script: {instanceID: 51262}
+    - Class: 114
+      Script: {instanceID: 51670}
+    - Class: 114
+      Script: {instanceID: 51782}
+    - Class: 114
+      Script: {instanceID: 51838}
+    - Class: 114
+      Script: {instanceID: 51974}
+    - Class: 114
+      Script: {instanceID: 52022}
+    - Class: 114
+      Script: {instanceID: 52212}
+    - Class: 114
+      Script: {instanceID: 52432}
+    - Class: 114
+      Script: {instanceID: 52612}
+    - Class: 114
+      Script: {instanceID: 52652}
+    - Class: 114
+      Script: {instanceID: 52780}
+    - Class: 114
+      Script: {instanceID: 52892}
+    - Class: 114
+      Script: {instanceID: 53144}
+    - Class: 114
+      Script: {instanceID: 53176}
+    - Class: 114
+      Script: {instanceID: 53408}
+    - Class: 114
+      Script: {instanceID: 53640}
+    - Class: 114
+      Script: {instanceID: 53660}
+    - Class: 114
+      Script: {instanceID: 53824}
+    - Class: 114
+      Script: {instanceID: 53844}
+    - Class: 114
+      Script: {instanceID: 54232}
+    - Class: 114
+      Script: {instanceID: 54332}
+    - Class: 114
+      Script: {instanceID: 54380}
+    - Class: 114
+      Script: {instanceID: 54752}
+    - Class: 114
+      Script: {instanceID: 54788}
+    - Class: 114
+      Script: {instanceID: 81336}
+    - Class: 114
+      Script: {instanceID: 84766}
+    - Class: 114
+      Script: {instanceID: 125718}
+    - Class: 114
+      Script: {instanceID: 128018}
+    - Class: 114
+      Script: {instanceID: 128054}
+    - Class: 114
+      Script: {instanceID: 128074}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 31334}
+    - Class: 114
+      Script: {instanceID: 31510}
+    - Class: 114
+      Script: {instanceID: 31782}
+    - Class: 114
+      Script: {instanceID: 31830}
+    - Class: 114
+      Script: {instanceID: 32038}
+    - Class: 114
+      Script: {instanceID: 32196}
+    - Class: 114
+      Script: {instanceID: 32314}
+    - Class: 114
+      Script: {instanceID: 32526}
+    - Class: 114
+      Script: {instanceID: 32668}
+    - Class: 114
+      Script: {instanceID: 32934}
+    - Class: 114
+      Script: {instanceID: 33156}
+    - Class: 114
+      Script: {instanceID: 33522}
+    - Class: 114
+      Script: {instanceID: 33582}
+    - Class: 114
+      Script: {instanceID: 33744}
+    - Class: 114
+      Script: {instanceID: 33980}
+    - Class: 114
+      Script: {instanceID: 34078}
+    - Class: 114
+      Script: {instanceID: 34114}
+    - Class: 114
+      Script: {instanceID: 34170}
+    - Class: 114
+      Script: {instanceID: 34200}
+    - Class: 114
+      Script: {instanceID: 34236}
+    - Class: 114
+      Script: {instanceID: 35142}
+    - Class: 114
+      Script: {instanceID: 35464}
+    - Class: 114
+      Script: {instanceID: 35474}
+    - Class: 114
+      Script: {instanceID: 36224}
+    - Class: 114
+      Script: {instanceID: 36278}
+    - Class: 114
+      Script: {instanceID: 36566}
+    - Class: 114
+      Script: {instanceID: 36664}
+    - Class: 114
+      Script: {instanceID: 36732}
+    - Class: 114
+      Script: {instanceID: 36814}
+    - Class: 114
+      Script: {instanceID: 36910}
+    - Class: 114
+      Script: {instanceID: 37024}
+    - Class: 114
+      Script: {instanceID: 37680}
+    - Class: 114
+      Script: {instanceID: 37888}
+    - Class: 114
+      Script: {instanceID: 37990}
+    - Class: 114
+      Script: {instanceID: 37992}
+    - Class: 114
+      Script: {instanceID: 38258}
+    - Class: 114
+      Script: {instanceID: 38612}
+    - Class: 114
+      Script: {instanceID: 38698}
+    - Class: 114
+      Script: {instanceID: 39046}
+    - Class: 114
+      Script: {instanceID: 39666}
+    - Class: 114
+      Script: {instanceID: 40694}
+    - Class: 114
+      Script: {instanceID: 41128}
+    - Class: 114
+      Script: {instanceID: 41184}
+    - Class: 114
+      Script: {instanceID: 41468}
+    - Class: 114
+      Script: {instanceID: 41552}
+    - Class: 114
+      Script: {instanceID: 41648}
+    - Class: 114
+      Script: {instanceID: 42088}
+    - Class: 114
+      Script: {instanceID: 42204}
+    - Class: 114
+      Script: {instanceID: 42206}
+    - Class: 114
+      Script: {instanceID: 42266}
+    - Class: 114
+      Script: {instanceID: 42308}
+    - Class: 114
+      Script: {instanceID: 42446}
+    - Class: 114
+      Script: {instanceID: 42534}
+    - Class: 114
+      Script: {instanceID: 42562}
+    - Class: 114
+      Script: {instanceID: 42730}
+    - Class: 114
+      Script: {instanceID: 43004}
+    - Class: 114
+      Script: {instanceID: 43092}
+    - Class: 114
+      Script: {instanceID: 43332}
+    - Class: 114
+      Script: {instanceID: 43508}
+    - Class: 114
+      Script: {instanceID: 51362}
+    - Class: 114
+      Script: {instanceID: 51690}
+    - Class: 114
+      Script: {instanceID: 51930}
+    - Class: 114
+      Script: {instanceID: 52600}
+    - Class: 114
+      Script: {instanceID: 52760}
+    - Class: 114
+      Script: {instanceID: 52840}
+    - Class: 114
+      Script: {instanceID: 52996}
+    - Class: 114
+      Script: {instanceID: 53352}
+    - Class: 114
+      Script: {instanceID: 53436}
+    - Class: 114
+      Script: {instanceID: 53880}
+    - Class: 114
+      Script: {instanceID: 54084}
+    - Class: 114
+      Script: {instanceID: 54452}
+    - Class: 114
+      Script: {instanceID: 54784}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f9a8895200533849355f694993c06657
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 95c8a8c68e664d4868755f06e7c55997
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 610e7d4cdd88c60e052c2cecd86a392b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CharacterSelection
+  - hash:
+      serializedVersion: 2
+      Hash: cf62aad97f6c2dd5d482e2509c6c9528
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: cb03b6561177644848dc799a892ab357
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventLogger
+  - hash:
+      serializedVersion: 2
+      Hash: e20a6de5f1fd1dfae6f1186e8f77c3d9
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 61319095e40c0cbfeeb89f99a1cdd4fb
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 29362692ab8b7c46bfb7c8cb42bfe5b4
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrarySourceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ed8e62f07ec878233f5493a335003493
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: b72d9c057c0f9460abf04218f4cc4f0e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
+      Hash: ec59bc56f69d3d13d1fc9d3e087fb56d
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SkeletonAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e061bdd0159a784b8acc0552dd0f40bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0370b9f95798139b666659c7e1be6147
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: c27554f9feec0ec62923b4c200a63b9e
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0b64d103fe555d830e8ca206abd12a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5853689a3479946eee2b8547c1f13d3c
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: DeformationManagerUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a119221a1c3d590645a52df2cbebb41c
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine
+    className: HexagonalRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 4392bfff79efe0630144f16ea4d656ab
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObjectList
+  - hash:
+      serializedVersion: 2
+      Hash: daeac1347f8039f61cd4017ff33bd3c6
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 70f32205c09df7278123c24185709601
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TurnManager
+  - hash:
+      serializedVersion: 2
+      Hash: f99ce8526ec148f29051c0a9dced1a03
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineGlobalSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 709e7a14fd69c48de1a0f460ef868042
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: AdvancedRuleOverrideTile
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: db9b308769d19e1f9e161df0392c23ca
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f669be52680c88846b2093fd41d1e06e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 2deddcdd5f664164bb803747210cbba2
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbd05175d4cdd21e24f9716cdd24f83
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 1362033cd491d66ad3cc206af29cc0de
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: da281dc879c7932e0c9669da88ae40c0
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9507f221948bbd40853cc0ec75374d07
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 79b0dc375869604f5df4aed6458e63a1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ActionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4ee1e5f285c826248e282a4df1635b19
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 05afd034bf7a074278a40ad9e97d8db4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: e6ee7dccba41ae87d10e3d922c6cb71c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 522f6865b4ec12522e602206785309f8
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: ef19274111491b6b8bcc6fd227f656f5
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: ee34255e3e86289bde9bad5e07b84cbc
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 47d50f529890b9237021f88334dc1cf6
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 0126f347d98d02424c7e030465a71ead
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 66496b917404bcb20f6bf50861c1adc6
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumeBakingSet
+  - hash:
+      serializedVersion: 2
+      Hash: dbe4f05d59170430398f6453d7253fe5
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 6d971045f8e67def7430d0b6f3cb0700
+    assemblyName: Unity.RenderPipelines.GPUDriven.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DisallowSmallMeshCulling
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdff9e91edfd9600f92a185def7e34a
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 73707dd24af053d88322ad9a735a180a
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: GridInformation
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: de8e34fffe62b77ca47bae273d0414ba
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ObsoleteProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b87547877f7bea0dd59c10bfb798b858
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine
+    className: IsometricRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: c4cdb902228df56d5b2b639d6a6bbd3c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0bc7ef1b7516f21320ec49bfd31eef2e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: da5a949a0bbd2ff91bc51c5805c2c41f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ea5e0cb2f62c5bafc3dfb7bcdc9595e1
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: a92561298b80715aa69e8fa770123cb5
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b14e186823458f549289789cccbb77ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 67272c9c30c50b68ef1ce72ac0191c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6b2b20d5352b9f1294595326f54bd3c2
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObjectPopupField
+  - hash:
+      serializedVersion: 2
+      Hash: 191c3402cd43ee08f0a96795440c294e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: fce99de7ab700e0c4c466ebd583aa306
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 95426d463074947dcbffc797c44e779c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: StandaloneInputModuleModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9f27b94c3c17b0da0d39632b61a4b711
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: c0a2b4d13675f08bfb211e044c334e68
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: e63fe08659e7e4647a51098c666f8845
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b30c8635462e66ac20f4241106119f77
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0f6b6107168e347e854c0107aa8cb9fb
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7d026ae582dc02c5edc3fc23b8c03ff7
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: b72839eb6e4350778dc879d98832aa2b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: 67ba98f8a8977f3e60e5f0e049923033
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: bc8c525e39b6fddab1a15c5b47455669
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceLensFlare
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d2bee9fe4a1a6bbaab9f74aeb6a934e2
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: 01727a040aa965d7fae41c3c1e1d9ee5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: a9a9985bc600ab81586355efc506ee17
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: 21d396433bc155436b5004301182fbfa
+    assemblyName: Unity.2D.PixelPerfect
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: e88d71ef93aba4e7faf243430f6a10ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 991def3bb38fe468342c445b01daabcf
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: DeformationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4f353524ce6564e40764f1ea080b2d85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c7461ddb2926b22edcbffe17bf941824
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalProjector
+  - hash:
+      serializedVersion: 2
+      Hash: 02a47340661d2ea7c6d30e292cfef403
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: c6369b4cc3be620d6c9300e920bc3d52
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 08e2446b65d2da7600c6bbdd36de0e56
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 3e21c4fc1790539a1a5e53c6dae8099a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: b24bae4511d404331640e62f8b8c2ed0
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumesOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bcfff150a932126a4ea840d0861a6b
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeDefaultCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 1321993db8249e1e05e1e0492b2bbdc3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d90629714fa6b0145fcaffc87f5c6559
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b6307dfc54cca9ba44f47185c578b0ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe0a072dbdcbca34d5003c5299de3aaf
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bf0842d88681628b29beb00b5e2ab785
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bc75926bfd3609757f7bf33ff766f026
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e0cf060d3a0d1afae0c661ac42606ab8
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 40be2ad159aa1a2b72ecc74cb38c7824
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 22130d378b859a59f2cb973162c02f89
+    assemblyName: Unity.2D.PixelPerfect
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 715f7928b39881049ce8c46350cb8681
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6cf63e9dc888f92a3672d2e4db631c8e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3074afe1b03a0fb081e176a4ef1b9d09
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 113e54f67456d0e7754c0598ee2a6dd4
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: e49f64f6c7006f2a8a0e7674b5de1fae
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 919dc7ec08f773fcae2d21a1e018bd99
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 14fb963022965ffa004cc4ec810b9fdd
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: 90cf308600fb4aeb677786843453ec55
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: c833d8ddc320fe5153f6a88cef23c858
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObject
+  - hash:
+      serializedVersion: 2
+      Hash: 5c2a5af4658ede896d072a8a641d706e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: 47f78e94e3df8d612cefa1307a19e2ce
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: 11bfd8e114b0cee733bd68200b989b01
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8d7ab1303b1c14da5fdd62bf96ca6e89
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 7a0bde3ac6d739f92105cfe5613df2e0
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 5015c05a2113f320567617675a1ebe33
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e5f9868e485ac5248f96a3be584a5e4a
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 810e3c228b295cc60c4de2cdd94b18cb
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f2098fcd8ee983a05ec192f63904298f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c058ff8faaff3e0da63b5433ebfb40bc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: 953fad5c5ab1e7bb889420c434db93fe
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: a908b098f2284663c0b9130e88844772
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fd7983aadddd0b1b9f4ce82ed537bde5
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: 711ba963e2b245a25de71beeaeeeb658
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 1131d16e2402427640760042b5486b11
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: CullingManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9f355e210e7950e47ad1391c7681435b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 43ebd945b04bced376c791411cf5a289
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a9f0153fc675e1f4ade818b83e4ff0c1
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5a086d4d028363983ba6ca30a01397
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3586e7f4fd3cb20328f9458141273dab
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: e23d2210701e34e6850023cabe554c1f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6090e4a05b304cae0439e623be1c3e16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CardHoverEffect
+  - hash:
+      serializedVersion: 2
+      Hash: fd4cc9037d66a0b564a5bf23671a88e7
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: bcca8fb4ed4a16cac35c6fbfd402c6e9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LineChartManager
+  - hash:
+      serializedVersion: 2
+      Hash: 80aeb876b0e95f6256bbfcbf33e26e84
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: LimbSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: f5df081962c06a171f380eb236cd1f3c
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 215d2dc6ec6ea06728398ea39a103cb3
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: e8fd74e57e72e8e4ef28792881adb864
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 58570e231c93c2f96918856759b81286
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a89b0448af4e1cd103a77f9fec0a961f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 86344100c716167fb86137c127ca9eee
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: e6f8333cc8a800e2866870a5ef7efc35
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed5daadd237bb82e132790f75ffccaf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 81256bdc9a5399e381013860f2856415
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SetResolution
+  - hash:
+      serializedVersion: 2
+      Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe4c75203a9743390fe41454f7d841d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 6d94138b60a9299798dda96c1ee6725f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dd0d6c663a70a021288c321392464a20
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f854af586011dd194574f89546642e29
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 31474c47a593550305b32eac290b4330
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StockManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1f83eef13a79f436d9b929359da21ab6
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: d4c7cb9e46d192844a5b295d6a3f8dc5
+    assemblyName: Unity.RenderPipelines.GPUDriven.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DisallowGPUDrivenRendering
+  - hash:
+      serializedVersion: 2
+      Hash: 10ffd5579f941e0f4946756d18f1a9df
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValueTuple
+  - hash:
+      serializedVersion: 2
+      Hash: c78ed13f6b5a632d70d4f73f56ad81f2
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5a25c7516fadef3552c99f55215749d0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f73e3a97805e1e671360c632c4565101
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: d75df0b83c74ab3d9088964ef8188507
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: e4b7831f0a9e91f079eb40ea24427631
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: 14f8c3da54a840e4c398ed3fa7b6057f
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 96e7bcfd2d072992dab64ac44058b930
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 415316b9bbc4e339c901a46503e2790b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 467f4a5e5f0a57c9f502e4d66c72baf5
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 5f27242e1ad2aadb1faa604dd779a464
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 2f43860e745f8edade7bd381809e537b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: 24af424a437762b0c98a2238a41b2825
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0f19765290d81f9e93eff7828a091d40
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: d7c8092511063e0dae8106bfc8ed63dd
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3594d8e9fcbd74e51eec80efbf16c599
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ec6cf673540b2d4e42c612611eeafe4d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ff5172bc81dc2da4c7de2a8bf56dc4b8
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionsEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 64756cee21909a7a459d5e05844baa97
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: a5f52e289070cca28d53aa2d26bf266a
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: Bone
+  - hash:
+      serializedVersion: 2
+      Hash: af770ad771658627851c64eafbf797f0
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: AnimatedTile
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe6d4f095ce838f5396d1867140a9b6
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: d497e277ee09923aa44c51901a8f68f9
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 0a4ef3c4e73b2f3eef913e2325924084
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e9db29e31ba60222fa1690a9445f34f5
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: RuleOverrideTile
+  - hash:
+      serializedVersion: 2
+      Hash: b810dfd26c061161a980f9a956f9a116
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 9dc274eab7228631e90d4757b13b768a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: 049f6aa84fe1cb5359c9338e96d0b07e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: ad49e20f31ed572e586aa8bbaafb591b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6d394de691f6d0187f61c08889353d0e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b98001682cba83786775c9e415b89a61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b838cbada0b03f1cfbaebc8e124f4f39
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: bb8d968ef4474e71aaad4a4dce279f90
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5f70b16cd9acc9c1dd88b51b6ed89669
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 656900f3eacc1cd944adb71a70bd9396
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d771cabeaa363771c54f6c41824f7abb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: cb49ce80d4b69cb2ed30d83bfcb146ae
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 1e6aa1f905f62bcd0558226c29920412
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeObjectPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: d2ecd94550edf1b56aff07b1f4e41c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 2cc5af0f17cef9c717df88c8c7e4c9aa
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 17a71904793c41964b29cf2c93c6e006
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5dc51b0140815ee83ba613dce32f5b12
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bfd4af30d9804c73a547e494b337b534
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine
+    className: RuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: f45600bcc886206dd55a3208474aad61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: fce9b835d1e8b08e7ecea8da19f21986
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 51603d25dc8c39903df98901361f0b73
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 6217b1287eca7eed313cf0b864249a30
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 552dca338f20933ce362ebbe559a6aa6
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 191cd500c627cd6682ef6f70b8e47f2c
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ef38c1407dba8c1f5d69f5db61a694fe
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 711fcd430ced52d118771c9c71e13238
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: b12640dfdb5966813e9dd838893e6c4a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5318ed8488b1fe17c08044ce1b8309
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: e18dfd2b913b09fbbb2405165a2e6a44
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e55aabf052a209e067b62b7e57799737
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BubbleSelection
+  - hash:
+      serializedVersion: 2
+      Hash: ada873da50974d1e7ce247ffb296b0f3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5382156409d7c462c67822a5ee8d6c85
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: d85292b1d7ddb10e5a2df5d221dcba86
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: e402a382f213255c22bda9254dd831b3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: fea660240dde52e08bd79d154e104e15
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 17142b03663387290480c82303274c02
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 00eef92bf387da2c9009267123d9d674
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ed2c59b75f8f3cd8df4cd4387d965e71
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 2541c03d117382d4ebbe0bb0775dd2dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 5c21f4846181ee6e245db1fcfb62fc0e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 8db3e42e76823deb19d3c5cc2e17732f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomCursor
+  - hash:
+      serializedVersion: 2
+      Hash: ca7965796a6fc0e5baad4cb19f5b5ded
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cde402e184a6ab530144506bc9d6a0af
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 3ca7f2be93d5156a91693dfd4bd38e3f
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: f778e23b6ff26b8de4721be0eb1fa240
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 27fcf46f05da57849d306826fb32eb18
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: e6b258489c88376c5869946b2735e7e5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 25d6ac36a0cc1dbdf0ee203a15e565b8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FinanceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b88e78b6860b6061b2c681ea9b80b6bf
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: db6133687572f9dc24f1fd4238ef9b83
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 58f6c91dc9977217e7536afccdb74f71
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeAdjustmentVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 9a174471d4db2c0c6d3ac47d2f818db1
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 83cfda82082c233d96cc677c19f57e07
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b3eb5d73cd07eeee371bb1b136d026d6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: 
+    className: FullScreenPassRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 4718916586b3818eb69bf65df61f0f3a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9a242aecdaba57c346a8709f4722dd15
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: d82086405f46de14829f6b4bcbdd8fc9
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 800d7bbf0edb0055aeacdbfbe84a84b8
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 75e6996c007146d1af07c63b7d7afd6f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConversationTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: dc6afff6b1580a96584597b616ff2c3f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueSystemEvents
+  - hash:
+      serializedVersion: 2
+      Hash: fbb9cdf12258a90ac2425dd146b37a91
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueSystemSceneEvents
+  - hash:
+      serializedVersion: 2
+      Hash: c23e212b5b7bc0ad4310fbb32dafe572
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConversationControl
+  - hash:
+      serializedVersion: 2
+      Hash: d7516c190d116e8699d1a4918ef4fbbe
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: QuestStateListener
+  - hash:
+      serializedVersion: 2
+      Hash: d4052a89286d9b7688d9b7d0ce43b208
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: GameSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 5d1632acf726203711ca9fc6adcbb1e8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandMoveTo
+  - hash:
+      serializedVersion: 2
+      Hash: 0f86ee82d7479de815dd538d5182916b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UseAnimatedPortraits
+  - hash:
+      serializedVersion: 2
+      Hash: d64cc331cd76d55556af23fcfd719da9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: PreloadActorPortraits
+  - hash:
+      serializedVersion: 2
+      Hash: 0133bd677ac7561c565e52038153c760
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConversationView
+  - hash:
+      serializedVersion: 2
+      Hash: dd7fe2e6000e87f167dbc10e5ab63785
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ExtraDatabases
+  - hash:
+      serializedVersion: 2
+      Hash: 1963d2b65fe37e1ed8b5ec16ba2cfbf2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: TriggerEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 4a93c7b805477852bbdc18c99612ac6b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: GlobalTextTable
+  - hash:
+      serializedVersion: 2
+      Hash: 9f8a348ef852cb663a34967c7046088f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIVisibleControl
+  - hash:
+      serializedVersion: 2
+      Hash: 3d1dc23d12a0ee8a6ff8ecdb6f3ca72c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: DontDestroyGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 38171d2ce8b26d4b004d719975e606e6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SelectorFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 626a15391f4adcd645180f9e94a7c3ea
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BarkGroupMember
+  - hash:
+      serializedVersion: 2
+      Hash: 5f961323682766d71f72cc871c8c3e99
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIBarkSubtitleDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 024d733808c1e3d11369070346781120
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: OverrideDisplaySettings
+  - hash:
+      serializedVersion: 2
+      Hash: a1b4f7a852954c821ab843bf2d44c7d2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: d14b43d37f2459023a114bead550bada
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ExtraDatabases
+  - hash:
+      serializedVersion: 2
+      Hash: ded3804e68cef214748888475a977769
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 838b36160acb25756f35ed7e106a9b74
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIMenuPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 277ad35f776170fdda6c04fc07740fd2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIIgnorePauseCodes
+  - hash:
+      serializedVersion: 2
+      Hash: 488cd1e6440eebcd24ca421c0b6e0e92
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: TextTable
+  - hash:
+      serializedVersion: 2
+      Hash: ac0b47b84965ad2d01813facbe2ade1e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: PauseGameOnConversation
+  - hash:
+      serializedVersion: 2
+      Hash: 21233cbd11bec81beaebc514d505ade6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: BinaryDataSerializer
+  - hash:
+      serializedVersion: 2
+      Hash: aaa283eae87c61cea0d1b4e599413189
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: InputDeviceMethods
+  - hash:
+      serializedVersion: 2
+      Hash: 8d8755081372f940d7b396a1b2de13d4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: StringAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8119ca2a5c4d3f484e3ea01482176a8c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: MessageEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 3c43b0a5a70299cbc0486f9aef881fb7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: MultiActiveSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 9b9415dfc631e57df1c2540ac29990c1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandDelay
+  - hash:
+      serializedVersion: 2
+      Hash: 4da77d604d94b3ed5b1923223066209a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BarkTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fe4b3244d157fad5c3b077f6000805cb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUISelectorElements
+  - hash:
+      serializedVersion: 2
+      Hash: 5b5542e4ac0bdbc27ba5edff73779f45
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: OverrideActorName
+  - hash:
+      serializedVersion: 2
+      Hash: e672185a666843a0369ff2f09bf8cdf8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: InstantiatePrefabs
+  - hash:
+      serializedVersion: 2
+      Hash: b71a399f7d3f391c7add50f4d45ee5a8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: DeselectPreviousOnPointerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 8e73f9b65ea57ba14b5e5529d95b3215
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIQuestTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 83fa01a5579ca2056891a110f3b8a2bf
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: KeepRectTransformOnscreen
+  - hash:
+      serializedVersion: 2
+      Hash: 36708cd9c5ca65f377a6e63cba57db16
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SetEnabledOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: b32a77f5467878eee401b7640590bec5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueSystemController
+  - hash:
+      serializedVersion: 2
+      Hash: 8400fc76fd3fd325d7165153af6f6234
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConversationLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 4142be043556a3e2a79e7be5909e1e23
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SMSDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 6625ba5840f11896e750764dc7411394
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: UnityBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: a06d96605d876f33903065e2ed266057
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: UnityGUIQuestLogWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f6ae8ab9df2fa40069483e0b91886b64
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c21a25d51373feda3bd1554434896433
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BringSubtitlePanelToFrontOnFocus
+  - hash:
+      serializedVersion: 2
+      Hash: aa77022252673f22cd94bd159323c289
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BarkGroupManager
+  - hash:
+      serializedVersion: 2
+      Hash: 841bb4a083cfc6eb21eada16dd089e22
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: UIButtonKeyTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 6916a10abe675dac1a98acba109445a0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAnimatorPlayWait
+  - hash:
+      serializedVersion: 2
+      Hash: 7b95174ddf1a73dcf63e0e1c899ceea0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SaveSystemEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 3456f28b8ccdaeb4cfe44ff5ced1a3fe
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BarkOnIdle
+  - hash:
+      serializedVersion: 2
+      Hash: ca71e3c56df42b06920afff80bdff220
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUITimer
+  - hash:
+      serializedVersion: 2
+      Hash: 25205ad1cfc48332d02caea974ef768d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueSystemSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 5a139cc4a96526bead28245747d30b5f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIButtonTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: f78a3bc38a91ed9e41c9f2dc44e72c93
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: AnimatedPortrait
+  - hash:
+      serializedVersion: 2
+      Hash: 8b624314fae25db360c6a35d50da8b1b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ConversationPositionStack
+  - hash:
+      serializedVersion: 2
+      Hash: e1223ed1d800a6134ff2371788821249
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SetComponentEnabledOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ac4c56f1a6bb82c2eb316157fce734c5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIScrollView
+  - hash:
+      serializedVersion: 2
+      Hash: 4d7a80c75bb4abb4263d4a1287931f2a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: MultiActiveSaver
+  - hash:
+      serializedVersion: 2
+      Hash: b2596550f447f6525c387a7ce9724ce0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: QuestStateDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 82518242e3515729629e75b696fc9eb9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIRoot
+  - hash:
+      serializedVersion: 2
+      Hash: b3b471c20538d3f0e9a23d51a6311fbf
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DefaultCameraAngle
+  - hash:
+      serializedVersion: 2
+      Hash: d5d906033dc84ccacef472f94305888d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LocalizedTextTable
+  - hash:
+      serializedVersion: 2
+      Hash: 74ce7ece1f86c3e0e3f2116c6c243c54
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueSystemSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 949755c7cbc995c1c2dabdf024e803e7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: OverrideDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9d91acc1b34053516947b6cc7c1117d8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: TypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: aebfafbca2e86530ed2d4826bbe27e2b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: OverrideDisplaySettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1fda39101591352b1106ada562177c07
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LuaOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 5b539a487770b2b431a6132ba339028a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: QuestTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d424ab8ed1676b39885e060dcdc36f76
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUITypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 82c6b8ec29a2b415a9c817c2533bbb89
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: JsonDataSerializer
+  - hash:
+      serializedVersion: 2
+      Hash: fd64a7a6fe542d03e1d7f9d66c7020b0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo.Wrappers
+    className: NavigateOnMouseClick
+  - hash:
+      serializedVersion: 2
+      Hash: a024918ee193df058f2d9e3a08e5b50c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: UITextColor
+  - hash:
+      serializedVersion: 2
+      Hash: a4eb93bc88f6115529db948385db1b28
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: JsonDataSerializer
+  - hash:
+      serializedVersion: 2
+      Hash: 5c91814ae63d469a0284bd5fcac54aa4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo
+    className: SimpleController
+  - hash:
+      serializedVersion: 2
+      Hash: 74a2c55e149065797c3de1b33beb17e8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SpawnedObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7c7e97da401264ea5e7e235d7b63978f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIQuestTitle
+  - hash:
+      serializedVersion: 2
+      Hash: 6ac7a08411616169be79279e013d8704
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: CollisionEvent
+  - hash:
+      serializedVersion: 2
+      Hash: a8947d8d608d76822389fe8e8f40490d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: TimerEffect
+  - hash:
+      serializedVersion: 2
+      Hash: ea4271d3823a57ad6dcfc7a7236bae9b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SetQuestStateOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 27214b1beac5031c7f3117fe98b56d1f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: ShowCursorWhileEnabled
+  - hash:
+      serializedVersion: 2
+      Hash: f670e1bb65d1208e5eb5c5bcbef77ede
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: QuestLogWindowHotkey
+  - hash:
+      serializedVersion: 2
+      Hash: 86c52824747aff222ac3d7f3a6ce59d3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo.Wrappers
+    className: DieOnTakeDamage
+  - hash:
+      serializedVersion: 2
+      Hash: 158fba0953e77217a4b9d3d48d4b985f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: TextTable
+  - hash:
+      serializedVersion: 2
+      Hash: 4475bcbb4d32783f226943acb13e66e3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LocalizeUIText
+  - hash:
+      serializedVersion: 2
+      Hash: ed63ed41aff1474a7543192400f4de30
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: AlwaysFaceCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 34976b838e109f51965e1ff92251168f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: InstantiatePrefabs
+  - hash:
+      serializedVersion: 2
+      Hash: a89cf02b4ccf78e2c69653e7b02cdb7c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandLiveCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 922c7a6a95778cf5bfae3f188a2771c8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: SlideEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 64cc25ce541e5b28ce2bf66a38df4d3c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUISelectorDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: c9301aabf56d452fe3fd390ff37938c1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BarkGroupMember
+  - hash:
+      serializedVersion: 2
+      Hash: ddd6f2048c5ae8fbd8a906dfed1a1247
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: LocalizedFonts
+  - hash:
+      serializedVersion: 2
+      Hash: 1dfc8a288f4ce7bf0aff08057d40b201
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: OverrideDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: d14b306a1d3c47b21b3ed88e5b1d97fd
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BarkOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 6a278a5a5e552b6178c1005305aa7ff4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: TextlessBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5226455354952b8cbe14d5d5106fdf83
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LuaConsole
+  - hash:
+      serializedVersion: 2
+      Hash: e2d21cea4ba38d01bc872980110f77e4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: AudioEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 42f4aeb20d69c56f22b0cba94833fd25
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UseAnimatedPortraits
+  - hash:
+      serializedVersion: 2
+      Hash: 451e2ff62a171b5fbf5b448b093471d8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAnimatorLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 81c49f2002225c795cf3cde7c4e7b6d2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: EditorNote
+  - hash:
+      serializedVersion: 2
+      Hash: 09c528c7eb93848b59a889e8fb80a64d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SetEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: ab0f37e5a0aa9f3e1bde3c5ab4105a88
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: StandardSceneTransitionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5f3fc94800ee9b4b169984ca1506a208
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: LocalizeUI
+  - hash:
+      serializedVersion: 2
+      Hash: 51d11ad1c3b867698f65a31b47215792
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: LocalizedTextTable
+  - hash:
+      serializedVersion: 2
+      Hash: 5f40d89501989f3a3c74b38aa2f92931
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUITypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: ffbe7600771c06a16f370662e18fcb93
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: PersistentActiveDataMultiple
+  - hash:
+      serializedVersion: 2
+      Hash: c54cf864ef7599ab5b25f658142b2086
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIQuestGroupTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 444de06e987535c6c298fbf560832f93
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: ActiveSaver
+  - hash:
+      serializedVersion: 2
+      Hash: ba8ac354be82d0c98140a197806a38d5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIQuestLogWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f284fd7512f5f720ed89a4a6c80a585c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: DataSynchronizer
+  - hash:
+      serializedVersion: 2
+      Hash: d28f62d5e07405ed843d745cdae0d42d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUISelectorElements
+  - hash:
+      serializedVersion: 2
+      Hash: 03eafde3d4babe9da0f1392557c40f43
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIImage
+  - hash:
+      serializedVersion: 2
+      Hash: ef99baa6ed2fb63685e028012c59ad7b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SetLocalizedFont
+  - hash:
+      serializedVersion: 2
+      Hash: 71279ec991568c99f66a225d70dd461f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: TypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: d10b23c8e43ee43382efd8d6e0110d58
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUITextTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: d8418b7bde011701a508fdca3d6e36df
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: PersistentDestructible
+  - hash:
+      serializedVersion: 2
+      Hash: c37a7ebbebd7dd191b95ea9c0124e35b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUITimer
+  - hash:
+      serializedVersion: 2
+      Hash: 73848232240a42f39f068012c8b9f70d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SequenceTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 64c459918a3a0e40c3fe9358b0e8c06a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIContinueButtonFastForward
+  - hash:
+      serializedVersion: 2
+      Hash: b64a050fa743b67dda3c88e018320032
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: UnityGUIQuestLogWindow
+  - hash:
+      serializedVersion: 2
+      Hash: a94b0be0c2fdbe6f6c65c839d26690b4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: AlwaysFaceCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a9f084914f7a98d21038ff111afb4823
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: LuaOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: aaeed0cc3dc7e2cd190c44e3b7c2921c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: PositionSaver
+  - hash:
+      serializedVersion: 2
+      Hash: bad068d0a3ff762c3bf56c7b3caf6709
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIResponseButton
+  - hash:
+      serializedVersion: 2
+      Hash: 936162ea565f33c5af85d3aace883c83
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 4a703b29249a0d84e3297cbe1f70da80
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SequenceTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 55cf67f4a7f49ec6352f3f5e3e1f57ce
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LocalizeTextMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 7353191a35cf84f939cf80576c95df1b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIContainerTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: f87510f7944d6fbeb1fd873eb56dcf8d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: CollisionEvent
+  - hash:
+      serializedVersion: 2
+      Hash: e96487115ad85bf4a780d183581a8539
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SpawnedObjectList
+  - hash:
+      serializedVersion: 2
+      Hash: d185d8050bc3def2affc9ed7485b8dae
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SequencerShortcuts
+  - hash:
+      serializedVersion: 2
+      Hash: 97962f663a8bfec06728c205cbe34ce7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SendMessageOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: a04933287c5c214bcc64c4d392d81fdf
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: OverrideActorName
+  - hash:
+      serializedVersion: 2
+      Hash: f76ab9336d393d4aa36889bc1cec4845
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIQuestTrackTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: e186e55c865eee3e0ab4ec8925070850
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: AudioEffect
+  - hash:
+      serializedVersion: 2
+      Hash: f7e98d6d533c7e4d390382e6155389f8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ActorSubtitleColor
+  - hash:
+      serializedVersion: 2
+      Hash: f92ac5fe5005ce2fa542f21e7a05e502
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: DisappearEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 299e2e0de49dde9ecb0a635cd0649641
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: LocalizedFonts
+  - hash:
+      serializedVersion: 2
+      Hash: 5d76f29e448395c99884b7c8d122f771
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: MultiEnabledSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 6bb1d33c10023578891d18cc66ab20b1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SaveSystemTestMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 299f5aa77364840b0ba20ce960996a87
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIQuestTitle
+  - hash:
+      serializedVersion: 2
+      Hash: 1de9079c47fc77c38253270bcac41ac7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIQuestGroupTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 868611aa38dcb7dd0300d7d5de87a6fc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIInputField
+  - hash:
+      serializedVersion: 2
+      Hash: fd663206aa4bce3c66a9af06206ba896
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIImage
+  - hash:
+      serializedVersion: 2
+      Hash: ee508f0190bc5e52eaeeeea8db869d7d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: AnimatorSaver
+  - hash:
+      serializedVersion: 2
+      Hash: fde666b0c608db5ae49a7eb8bb54f550
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIQuestTitleButtonTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: ac4392af402e91027076b59928638810
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SpawnedObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: fb6254b517d74c5a7b148dfe20613ab8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIQuestTrackTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: bb3c0d1e4a2a65b610a188690bb34a35
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: UILocalizationManager
+  - hash:
+      serializedVersion: 2
+      Hash: bf6bf5860d26b61021bf187fb59ea56a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: LODManager
+  - hash:
+      serializedVersion: 2
+      Hash: 020102b22e1b25358a62eb14c43e7314
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: TextMeshProTypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 8f7187fbfe29cbaa08db93006ee707b9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIColorText
+  - hash:
+      serializedVersion: 2
+      Hash: c4984a9bc80cc000dbaf319dfa44d0d5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: AlwaysFaceCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 94305841adcabdc2f4bfda4f6643a2f8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUITextFieldUI
+  - hash:
+      serializedVersion: 2
+      Hash: b5780c7116f8e386d59ae24856e1ebf9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BarkDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 091e9e1f947585043b50aa045bf45385
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIQuestTitleButtonTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 796b5c134f2439e95599eafaf45fcf0a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StartSequenceOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 373d55bca69d2f6c0a0dc20bfbd68a37
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: ScenePortal
+  - hash:
+      serializedVersion: 2
+      Hash: 3d764e5c08b78efa50749b7d458b6e1d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIControl
+  - hash:
+      serializedVersion: 2
+      Hash: 6fbbf2b4ed51aa01283abe0f73fe59de
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: AlertTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: e8228b9faf401f77c6c372ea04b37a7b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SpawnedObjectList
+  - hash:
+      serializedVersion: 2
+      Hash: ae24f234e29567653cf9c99b233d05be
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIResponseButton
+  - hash:
+      serializedVersion: 2
+      Hash: ed9a73ac2e1abea46eb8dcbc98de51f1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: Selector
+  - hash:
+      serializedVersion: 2
+      Hash: c924db707f55ba92842bddef94967c56
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: DisappearEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 00f4d76e357b1a64429d57c51581e826
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: MessageEvents
+  - hash:
+      serializedVersion: 2
+      Hash: b73782ad92682d595a2dbc780ce48024
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SelectorFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: d2de944bb09cbccff4e997a45df85cde
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: UIScrollbarEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: abf536bfdebefaa9c87e5b9a7a773dc7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: AlwaysFaceCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5c5d73fcafb1d724214a204851951d76
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo.Wrappers
+    className: SimpleController
+  - hash:
+      serializedVersion: 2
+      Hash: 533bf13e9bfc00b4665f25e9a0c1451c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ShowCursorOnConversation
+  - hash:
+      serializedVersion: 2
+      Hash: 3a9a9ed8db6bc67e2d4b3bfbc08b7f4c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: Sequencer
+  - hash:
+      serializedVersion: 2
+      Hash: affa91b9119b0ed26a1de1d018390902
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConversationStateSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 862a8c4dadcb33445185b38c6aa407a4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIScrollView
+  - hash:
+      serializedVersion: 2
+      Hash: 0f2f4ed3dc34efcbf67bd781a40d68e9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ActorSubtitleColor
+  - hash:
+      serializedVersion: 2
+      Hash: 37a601b8f080127de71d74e20afcaf07
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: f051fc37eda6b41f09439ea8c16848e2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandCamera
+  - hash:
+      serializedVersion: 2
+      Hash: dcff2e307770b570d58fc51701a3ab1e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: PositionSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 1dea5c08595926cc528bcba78a492723
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueSystemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: bb7a94ab462ac476311f2665b6a89925
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SetLocalizedFont
+  - hash:
+      serializedVersion: 2
+      Hash: 510ab4d5943a5e02752102d29b1f445a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: TriggerEvent
+  - hash:
+      serializedVersion: 2
+      Hash: d151917ba87f820ddd0398102f244b0f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: DiskSavedGameDataStorer
+  - hash:
+      serializedVersion: 2
+      Hash: afae92323db750eb9255256104b7a2df
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIResponseButton
+  - hash:
+      serializedVersion: 2
+      Hash: e2464d5a541d35834d7c5c6beae5148b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueActor
+  - hash:
+      serializedVersion: 2
+      Hash: d6d9a4585dbc1be981d8e51cad9769a7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIIgnorePauseCodes
+  - hash:
+      serializedVersion: 2
+      Hash: 9b527bbe064ee5d48d911980c1b377e7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: PersistentActiveData
+  - hash:
+      serializedVersion: 2
+      Hash: 4546d9f159815bdf71c3e02d94739442
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: FadeEffect
+  - hash:
+      serializedVersion: 2
+      Hash: dcd99dfde511b6e86b5ed8d6fef4c505
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUILabel
+  - hash:
+      serializedVersion: 2
+      Hash: 43665cdc97f1520e53623ae3ca352c73
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIFoldoutTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: de6f9610c4c4407e369c6816977076d9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: AutoSaveLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 18e4835796a185d996769c06949a5873
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIMenuPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 26aa98a6215772886ee62be8e18b6f8b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SetEnabledOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 3fd926bc806897d69f62982375ebe95f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: QuestTracker
+  - hash:
+      serializedVersion: 2
+      Hash: a2580be2fbab861e744c04a7a6f731f9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SaveSystemMethods
+  - hash:
+      serializedVersion: 2
+      Hash: 40bd25a5d1f628ad49b22706e6c2add9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UIButtonKeyTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 09df665f5feaae9ce17e5f080ca00d5e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: QuestStateListener
+  - hash:
+      serializedVersion: 2
+      Hash: 275a6b703444441dfdaa6338090b84a4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1c3cc637b32c999b019f7ae392e40c64
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: CinemachineCameraPriorityOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: b82e9ca3000f0e6434133a51fcfcb015
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConditionObserver
+  - hash:
+      serializedVersion: 2
+      Hash: b8927c18a63bb9571c7d089a6613fcfa
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIFoldoutTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 1737c709bfb7efa58ad02e1d0aa62607
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 76119e9f0adea3c6646431f49b1f1113
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: db5f3701a4731c548a29723efb6872d9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandWaitForMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 5d58f4fcff7e260bd329fd69666578f2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: PersistentActiveDataMultiple
+  - hash:
+      serializedVersion: 2
+      Hash: a6e75ee572bd7455fb974b19acf58dc9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIScrollbarEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: 8767093bd0bf275b0295cd64a0cfa85f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9700ee26c0bceb5b6f2df4427dade4d3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ShowCursorOnConversation
+  - hash:
+      serializedVersion: 2
+      Hash: 0989b8f18a478a3dc373910e7004ed76
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BarkOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 0c895583bc737e5f9c6f6e1d70170ed5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SpawnedObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4b3c27d46c34aadc3f75b0a1f599db46
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: RangeTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: edc090066b008ba4fdbc7283ed56aa05
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: TextlessBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1397337e1161781e5edc0a99ade2e6f0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUILabel
+  - hash:
+      serializedVersion: 2
+      Hash: 75d374acf2fda4e44142ddd9174eff6c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: OverrideUnityUIDialogueControls
+  - hash:
+      serializedVersion: 2
+      Hash: 9ee4f5fe7cc59f88a266beb5898c8b43
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: FlashEffect
+  - hash:
+      serializedVersion: 2
+      Hash: fa9b64388a879f84dbd6b0e517c02394
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo
+    className: SmoothCameraWithBumper
+  - hash:
+      serializedVersion: 2
+      Hash: 271492e8f655a2dcd683b39b857cc87c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: ContinueButtonFastForward
+  - hash:
+      serializedVersion: 2
+      Hash: a0b3362bbdb8332c915ee590871fd700
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: QuestTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 844204fdf042e2227254804c5b033f12
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SequencerShortcuts
+  - hash:
+      serializedVersion: 2
+      Hash: 01a228577ddac539c244c04b8e61f1cc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIToggleTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: e44f45f9b582b003a36af1f1b3780146
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo
+    className: NavigateOnMouseClick
+  - hash:
+      serializedVersion: 2
+      Hash: fdcdbecae67e4f3303cb88fdfb327fba
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: GlobalTextTable
+  - hash:
+      serializedVersion: 2
+      Hash: 087765c06082a358f34efd2a75de8c3f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SaveSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 62374c2772b34388401a59f2e6c8a5b2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandSwitchCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 39a91b3b0332157219ac1503b0c88d51
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: EnabledSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 013176d1702c31f042aa95182efa6046
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DemoInputRegistration
+  - hash:
+      serializedVersion: 2
+      Hash: 0df499b2a15d0b32765b4a5d839efefc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ConversationControl
+  - hash:
+      serializedVersion: 2
+      Hash: 3a88bb6fe814e7f561823dee3a80b210
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SetAnimationOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ece17cfeba6abd077255fd0706b1ffd0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: BinaryDataSerializer
+  - hash:
+      serializedVersion: 2
+      Hash: 57a4d3ae826f2eba3e94695bfc9bda3c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: MessageSystemLogger
+  - hash:
+      serializedVersion: 2
+      Hash: c51d06c4a5b80f95b1ac371e30622f1b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UIButtonKeyTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: e59d5519d4e7c1711f7fb928e64cc3a0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: RangeTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: edfc2d6bb966605264332e03df2fed5b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: UnityDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 03f13847702499a78495e0f2ba8f245e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SetComponentEnabledOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: fb0b9f23877c8bf6e492b222574ea48a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: TimedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: f2ba3650513a0c1373c6491b1d80ea45
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: Usable
+  - hash:
+      serializedVersion: 2
+      Hash: 3e24b2dd2ecaaf5afbff09434dd6a69d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: Usable
+  - hash:
+      serializedVersion: 2
+      Hash: bfb441b7d6683ef5a1c4b7c0266dd551
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: KeepRectTransformOnscreen
+  - hash:
+      serializedVersion: 2
+      Hash: feba80e50cf35b1085c0af0d634ca427
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ConversationStateSaver
+  - hash:
+      serializedVersion: 2
+      Hash: aee41c9add93073566eaab9904d510fb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: QuestStateIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 18d14e61930e08cdb041e06914180caa
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIButtonTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 73fbb9da11af82795f48837952458cab
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: StringAsset
+  - hash:
+      serializedVersion: 2
+      Hash: efbd002c44d753b17e5bc7c4f294e786
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ProximitySelector
+  - hash:
+      serializedVersion: 2
+      Hash: dc8e4ae904bedadbebad9608e0909623
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: EnableOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 569b042fedf2314f109a3b32631887ad
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ConversationLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 4d674c35260243bf783d776c1978559d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LuaTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 94fdecc851921c1d8f3023d6147016c6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: DontDestroyGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 1b606d00f51ce61fcb3bafd93b03f9a2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: InputDeviceMethods
+  - hash:
+      serializedVersion: 2
+      Hash: 63828bf75c6d518493ff86cfe2c505ea
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIVisibleControl
+  - hash:
+      serializedVersion: 2
+      Hash: f50fa72ee0740b9cb7ac8c74a6f80529
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: f5b203bb5f889e3dbbbd0a17166bae22
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIQuestLogWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 603471ff7831f486c61846d5a0fef977
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SetAnimatorStateOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 32d8c77ef694a65458f82bf01c63f9b9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: PlayerPrefsSavedGameDataStorer
+  - hash:
+      serializedVersion: 2
+      Hash: 6489b2f2493e23156c5ea46da4bd5cc4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ProximitySelector
+  - hash:
+      serializedVersion: 2
+      Hash: 5adf0f92eb2182bb3feb7f2165398fcd
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: UIPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 77b17120ab149810e2a639df4153e9c9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 49298e8dec496e8fb72dbc8d3637a046
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: PersistentPositionData
+  - hash:
+      serializedVersion: 2
+      Hash: f40f1f2ae77a28a310181972335de73d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SetAnimatorStateOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: e3745d1a97012fb21312e1a4f0dc8b7b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo.Wrappers
+    className: SmoothCameraWithBumper
+  - hash:
+      serializedVersion: 2
+      Hash: bf4e4ec9d324b6c0b7f6bc524201bfd6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 14641f05588e84f808212a0038119ffb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SelectorUseStandardUIElements
+  - hash:
+      serializedVersion: 2
+      Hash: 27bc9c5432b47bced26aafd2785c2577
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: QuestLogWindowHotkey
+  - hash:
+      serializedVersion: 2
+      Hash: eb3ff9d44251d14f1c63ef9a000d8485
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: LoadingScreenProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 8048c17bcbdc584d01f18647b12697a8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo
+    className: DemoMenu
+  - hash:
+      serializedVersion: 2
+      Hash: c801ec57be3ab0da7d50947917a08498
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StopConversationIfTooFar
+  - hash:
+      serializedVersion: 2
+      Hash: e48fcbc04b74dc2b8e3d6ca67a18797e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SpawnedObject
+  - hash:
+      serializedVersion: 2
+      Hash: f626b0a93846f474b2c40a1a5858c2d2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: TimedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 62bb95897518bee6504fb2a434ccc6bc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: PersistentPositionData
+  - hash:
+      serializedVersion: 2
+      Hash: ee651d50aa12f75c660530a2b8b99775
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: IncrementOnDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 2e337cd8fa3d5b99f6cdaf6262fd7434
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: ShowCursorWhileEnabled
+  - hash:
+      serializedVersion: 2
+      Hash: d0a60059b0521b13c1bef33778839c78
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: TimerEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 4187ef8209284898ff740da228dc2ad4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIColorText
+  - hash:
+      serializedVersion: 2
+      Hash: a88ba744731faa5255e3499447316455
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUISelectorElements
+  - hash:
+      serializedVersion: 2
+      Hash: 59a8a23b977dc2de897550e1aa765f44
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIContinueButtonFastForward
+  - hash:
+      serializedVersion: 2
+      Hash: 1d4b38d9538641c72478bb7345f9611e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BringSubtitlePanelToFrontOnFocus
+  - hash:
+      serializedVersion: 2
+      Hash: 15fd803114d5b651829d3c196734a8ca
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: CommonLibraryLua
+  - hash:
+      serializedVersion: 2
+      Hash: 41c68033f435cfe36b7946890c8a072e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandZoom2D
+  - hash:
+      serializedVersion: 2
+      Hash: b40de10de2b799830c196ba79febbea7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: BarkTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b8fb300a4dfd7a19437901c50de6f48b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: UITextColor
+  - hash:
+      serializedVersion: 2
+      Hash: 72890c542fa53c9da3bd5ffc622cb9d0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: FlashEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 178bcc58fe102932a165ba99b2f433e4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: MessageSystemLogger
+  - hash:
+      serializedVersion: 2
+      Hash: e23052bd32cf8621972a84f7db70f82a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: StandardSceneTransitionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8c9fd599901efc30c146cf1a5fbec09a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UsableUnityUI
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0a86293273aad4e5237ca940f20589
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StopConversationIfTooFar
+  - hash:
+      serializedVersion: 2
+      Hash: 01f73cc551a65f4aa3c33526c47ac722
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandVoice
+  - hash:
+      serializedVersion: 2
+      Hash: 7feef49dd8840a667d74760d70129a52
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: TextMeshProTypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: cbf7d3e35d4eaba8512e655fa087d637
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: SlideEffect
+  - hash:
+      serializedVersion: 2
+      Hash: f1a990c9763057c1c920557972470e17
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo
+    className: DieOnTakeDamage
+  - hash:
+      serializedVersion: 2
+      Hash: 1e19c05ab2020feb4f2c01154f2362ef
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandQTE
+  - hash:
+      serializedVersion: 2
+      Hash: fb049cba265a6fef59101baac32675e7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: AnimatedPortrait
+  - hash:
+      serializedVersion: 2
+      Hash: f77dad1f1bf96a3251e3afaa38ddb324
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DefaultCameraAngle
+  - hash:
+      serializedVersion: 2
+      Hash: b0aeec2d512f8e0e3c034a4833ef87cb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BarkDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: c97962884c3f3d31a72d010c9c45e990
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: PreloadActorPortraits
+  - hash:
+      serializedVersion: 2
+      Hash: 7a7bcc338f13051971a330e962060e1e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: DestructibleSaver
+  - hash:
+      serializedVersion: 2
+      Hash: a60ae95fe2b8eb64cdad1ca216309ee3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: InputDeviceManager
+  - hash:
+      serializedVersion: 2
+      Hash: f39bab47788e897bb8a494ae178f864c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIButton
+  - hash:
+      serializedVersion: 2
+      Hash: 46d6ba745bb8b4ffc309d71bc4a0ceee
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: UIPanel
+  - hash:
+      serializedVersion: 2
+      Hash: ea1dd24d2d0c332304abf8c6bf9a9a7e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ConversationTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 304f3f9a35feea6010bf57967e285a52
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: LODManager
+  - hash:
+      serializedVersion: 2
+      Hash: fa9d695928fd8f5ab2668d3ba1d1e123
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIResponseButton
+  - hash:
+      serializedVersion: 2
+      Hash: 56ce48879bd90e7ccd7a638a43b08cef
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BarkOnIdle
+  - hash:
+      serializedVersion: 2
+      Hash: 3c49bc3a4c323cbdf6dc199492347246
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: PersistentActiveData
+  - hash:
+      serializedVersion: 2
+      Hash: f12394263718251dcb0400e9a245e3bd
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIQuestTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 3b4a34936c390bc1fba0090c82b065ff
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAudioWWW
+  - hash:
+      serializedVersion: 2
+      Hash: f7794e47acdc9da30e1f4060ee1ae80e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: UILocalizationManager
+  - hash:
+      serializedVersion: 2
+      Hash: b5f790edc7e8be633be18b90628c42da
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: UnityBarkUIOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: ff1f598d4b217ea747cd46f02aa02485
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIQuestTrackTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: d56e3e31cb56e0ef1b2045a418458e1a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SetActiveOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 6a45c0c2b6d1d55260af33df049784b6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SaveSystemMethods
+  - hash:
+      serializedVersion: 2
+      Hash: 3a7689f6435fe75b41ee678923e22aac
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueSystemEvents
+  - hash:
+      serializedVersion: 2
+      Hash: a995ed05fb53d582fdac8a24702c950b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: CommonLibraryLua
+  - hash:
+      serializedVersion: 2
+      Hash: 31440b37885caf787210941c6af09393
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: GameSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 86fcab1f7b52a27846b0c6950d6724c8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: CustomLuaFunctionInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 6a6707d087556f4602dfe0773a048592
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: AlertTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d1127d1a64db8a69c381917123c3e20d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: DiskSavedGameDataStorer
+  - hash:
+      serializedVersion: 2
+      Hash: 443d627d6c8e8266b32ec170eac65761
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 749e47b3e92745635c5f9975823070f6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SetActiveOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 9c79acafb28e8949fe3f3c126f983116
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: DataSynchronizer
+  - hash:
+      serializedVersion: 2
+      Hash: 3aa86aed9d16fe38aa0ac60d1510d1dc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIColorText
+  - hash:
+      serializedVersion: 2
+      Hash: 17d5e548b5cb8a718a8d1011a15136e9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUISelectorElements
+  - hash:
+      serializedVersion: 2
+      Hash: 74eab180fe2d03e58f5f66113869c3ad
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SetQuestStateOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 89352071a20ffe69de792fa68c295b41
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUITextFieldUI
+  - hash:
+      serializedVersion: 2
+      Hash: 83bb6f04798d6d9e01f5ad10b4fdb352
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: DialogueSystemController
+  - hash:
+      serializedVersion: 2
+      Hash: 7cd33d54882f1eba8f06c5bb503e22dc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIQuestTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: b4ef1033f71f87c2d680d749250b78b1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: AnimatorSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 22a4eaab92fbf0a8dd7adc028533e4ef
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIContinueButtonFastForward
+  - hash:
+      serializedVersion: 2
+      Hash: 560d485233621132d3058c3379937484
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIButton
+  - hash:
+      serializedVersion: 2
+      Hash: 646a11a1c292ca0c416886be8dd789ed
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 70510756b0028eb8d2422579e7bb764d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: DestructibleSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 289e888b28d9468434bccbbab17866cc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueSystemSceneEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 913ac0d812686780412222380e5c1045
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAudioWait
+  - hash:
+      serializedVersion: 2
+      Hash: a7e2e23387459c8b48958153d08d5c5b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: EnabledSaver
+  - hash:
+      serializedVersion: 2
+      Hash: be8fc18b801e1535163aebc7bb984309
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIQuestLogWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 68e3c790b01e1d8e77119592243dfbc9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UsableUnityUI
+  - hash:
+      serializedVersion: 2
+      Hash: 66a4d63c6f009767384c968578f809cf
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SetAnimationOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 9837b9f558041966ccc9dda2020c90f6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StartConversationOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 93eb674420a650643e88ca9bba571860
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueSystemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 34f754851c83a071cc9b1189039be541
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIBarkSubtitleDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: 548759c82b010b10db4667f04f339d8b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: UIScrollbarEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: 9f71ce11987d3c02baa5210e89540898
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: AutoSaveLoad
+  - hash:
+      serializedVersion: 2
+      Hash: e2f794622d91c3a70d33695a5d302f5e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: CinemachineCameraPriorityOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: f62cf3c3d5d8b0b14bfd932882e53b8c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: LuaTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 52417d41b6403a30b0873ea600f54c14
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUITextField
+  - hash:
+      serializedVersion: 2
+      Hash: 190dc2c2fa11b6daaec7ee41606bf178
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUITimer
+  - hash:
+      serializedVersion: 2
+      Hash: 39702d0c664dcbb0c36daa6cf6117a4a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIIgnorePauseCodes
+  - hash:
+      serializedVersion: 2
+      Hash: ba180c098bbd56cbea72047025bf220d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: InputDeviceManager
+  - hash:
+      serializedVersion: 2
+      Hash: f4d8197f12caade0d693af3aa8da705b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: 438ac528a9a4008fb3cd05eee49637cb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: IncrementOnDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 07fd4aace7a8d66236fb9044a65151de
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: LoadingScreenProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 57e79946458a2f6af980f599741abfa6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: ConversationPositionStack
+  - hash:
+      serializedVersion: 2
+      Hash: 026daa2f5dcb9a448b45bdf7b9edb840
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: LocalizeTextMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 256dc4d1da55c091f54b9f07fa709207
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUsableUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab4ba341d91afedcdd704843c285732
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIQuestTracker
+  - hash:
+      serializedVersion: 2
+      Hash: bab5d1fb0345c85842cfb1f441878e36
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SetEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: aace41392994531c3de196ee931c9c1b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StartSequenceOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: a4cbbc23dc3a56b3896e2817e36d2eb1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SMSDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: b140ea7ff337757553822759af19d8a6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: SelectorUseStandardUIElements
+  - hash:
+      serializedVersion: 2
+      Hash: 4104c735a73f91e73e928244eb7db532
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIInputField
+  - hash:
+      serializedVersion: 2
+      Hash: 1c381cb0aa9761fb47fa5b3e188588cf
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: ContinueButtonFastForward
+  - hash:
+      serializedVersion: 2
+      Hash: 6576638e9b61e9c162700e546fb621bd
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SaveSystemEvents
+  - hash:
+      serializedVersion: 2
+      Hash: b9e0a10845ca3b0ab4f68b33b0e08f6b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAudioWaitOnce
+  - hash:
+      serializedVersion: 2
+      Hash: b7df8c9b4350550c609fa2f2a4d05af2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: CheckPhysics2D
+  - hash:
+      serializedVersion: 2
+      Hash: 118faa55104e0f8401ae8a8862f0f4b5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: UnityBarkUIOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: ce70700bf1af9a1a6c8edbe4774ad607
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: PersistentDestructible
+  - hash:
+      serializedVersion: 2
+      Hash: d8447b17bc49aa4499810e8dd38ada77
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIIgnorePauseCodes
+  - hash:
+      serializedVersion: 2
+      Hash: 4e6ee366a85d8ad7afda7b52e7ab3729
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIQuestTracker
+  - hash:
+      serializedVersion: 2
+      Hash: cb207cedbec4062eba3128a6b042b5e7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUISubtitlePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 3450c4d985f683115f917c88845e1146
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: ConditionObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 30b68121c48e337225b7770b54a339b1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: DeselectPreviousOnPointerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9a5cac7ae54067b782005a000dc2bebb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: DialogueActor
+  - hash:
+      serializedVersion: 2
+      Hash: 89cdfff383b0b57a736a6ef38fda6c8a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: UIButtonKeyTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 2070737fb990d06762b4ac04676c2954
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: Selector
+  - hash:
+      serializedVersion: 2
+      Hash: c31871db607baed75df17e83cdc9a9db
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 537a3b33983e723c43ed3d7264ad48dc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUISelectorDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: ecd679504edf4d430c2d33a26661e4e4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: FadeEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 8b5e2cbc99f4a5ecb59041967a193156
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: GUIControl
+  - hash:
+      serializedVersion: 2
+      Hash: 94fdca0a5074e175ae6dcff89df0722c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: MultiEnabledSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 2c73c6f4759d16f21b217a2427cf88db
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 7d9d6f910198c8f7e6a10c5ca9fcc96b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: CheckPhysics2D
+  - hash:
+      serializedVersion: 2
+      Hash: 22a3eb19abafd16edd1e7f34618f50e7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UpdateLocalizedUITexts
+  - hash:
+      serializedVersion: 2
+      Hash: cadb444c751a02e063dcbe1d0e99cd55
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: UnityTextFieldUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab21b61a447d0d35bc833b38ca54cb6
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: PlayerPrefsSavedGameDataStorer
+  - hash:
+      serializedVersion: 2
+      Hash: 003b485ddf3943c5f606ea62f5153c08
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUIRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7a9c5f2afc39c2881a200bef67ea43
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIToggleTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 9ec8252639bdda932c1ecaba46029019
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StartConversationOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: e2d2b42704e4fc3f68da1fd93dcee23e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUISubtitlePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 38995db6098f0a46ce3b460998fb59e9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: ActiveSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 93442340783dc07f47cdb41db4ec6ef4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: SaveSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 21620d939d19ec28162a0496aa4e0020
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: LocalizeUI
+  - hash:
+      serializedVersion: 2
+      Hash: 3a352ca0c959111a23727c38802bfec5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: GUITextField
+  - hash:
+      serializedVersion: 2
+      Hash: 6afecc0dcc7be2ecac4b6d0d3668f3b9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: BarkGroupManager
+  - hash:
+      serializedVersion: 2
+      Hash: 69fa7bbfb432c3abcc64275408f0e350
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: QuestStateIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: b344427ffb211422ffa4830158aa266f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: aa0017fb40e66be0c52876bd282e7302
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUIColorText
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab4b0a16e42f76555b35cd2b686d414
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIScrollbarEnabler
+  - hash:
+      serializedVersion: 2
+      Hash: 97bd3d9245fa916ecd64ac8e39f2bd26
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIQuestLogWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 87a91d9e68c16c58751486e58d09214e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: UnityDialogueUI
+  - hash:
+      serializedVersion: 2
+      Hash: d50365ec873442fe51212c9d22d738fc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: LuaConsole
+  - hash:
+      serializedVersion: 2
+      Hash: 879dbf483b235b7f0356746e59ce85bb
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandAnimatorFloat
+  - hash:
+      serializedVersion: 2
+      Hash: fbf671490d6f321a8d658d1f428b7a65
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandFade
+  - hash:
+      serializedVersion: 2
+      Hash: 0f76f4d3a2d66a37ba4a023a905b275a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI
+    className: UnityBarkUI
+  - hash:
+      serializedVersion: 2
+      Hash: 369841dfbd6ae3c9d69a32713c96b5e9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: OverrideUnityUIDialogueControls
+  - hash:
+      serializedVersion: 2
+      Hash: 73b5d06c77d89893596abb9bd5e203de
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandLoadLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 2cbb873380fe00811323083ba6164f83
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUIQuestTrackTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: b3bd8790c0701da1ad4822a86615191f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: StandardUsableUI
+  - hash:
+      serializedVersion: 2
+      Hash: 971a1b6e4d118c923c320bc3e0e63b4e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
+    className: UnityTextFieldUI
+  - hash:
+      serializedVersion: 2
+      Hash: 51cb8f2443eb78b86bda17516361a87b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: StandardUITextTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 22ac13d2becd45621bbdc9aa7a41bcda
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: ScenePortal
+  - hash:
+      serializedVersion: 2
+      Hash: 36d156df03907c9072692da6f8655f8c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.SequencerCommands
+    className: SequencerCommandTextInput
+  - hash:
+      serializedVersion: 2
+      Hash: ef8bdbb74495a16b064c19b360a8fe72
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Wrappers
+    className: UnityUIContinueButtonFastForward
+  - hash:
+      serializedVersion: 2
+      Hash: a34c8a3a21bcd7244a2e4f5f1096a2c4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem.Demo.Wrappers
+    className: DemoMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 6757d3ea4c5714ece1ade2a619bca4bf
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.Wrappers
+    className: EnableOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: ff1d04d8b7819c0b61b7a841ab69164a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: SendMessageOnDialogueEvent
+  - hash:
+      serializedVersion: 2
+      Hash: c3cb0ddbf7180cc54682e4b2c342c064
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers
+    className: SaveSystemTestMenu
+  - hash:
+      serializedVersion: 2
+      Hash: fef685f404fc6e2ed2ef230c539738c0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: PixelCrushers.DialogueSystem
+    className: UnityUIQuestTracker
+  - hash:
+      serializedVersion: 2
+      Hash: dca6a8ce0df7f4fc9d7daec3b5f0cfa5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Game_1929
+  - hash:
+      serializedVersion: 2
+      Hash: a77b63853f3a3fb199780b0a12c3fc05
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventManager
+  - hash:
+      serializedVersion: 2
+      Hash: 69a7b8a9848212dea409e2f23b738f6b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 17f987131f875567b94e79a639669020
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9769cb2e0d0ec8b63135a27cdfa6af5b
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyTransition
+    className: TransitionManager
+  - hash:
+      serializedVersion: 2
+      Hash: cd219da8e18fd53a56b5bad050b6ff37
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyTransition
+    className: CutoutMaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: deb764badb47184f5347b262173ff676
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyTransition
+    className: TransitionSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 30be015b25c9723c33c160f924367119
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyTransition
+    className: DemoLoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: 22193c4ace45293d5fa9a243a4de8d93
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyTransition
+    className: Transition
+  - hash:
+      serializedVersion: 2
+      Hash: a6ff7f12bbfba672f8bd9e63a6c00270
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Background
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/BubbleSelection.unity
+  - Assets/Scenes/CharacterSelection.unity
+  - Assets/Scenes/Background.unity
+  - Assets/Scenes/Game_1929.unity
+  playerPath: "C:/Users/Luhey/Downloads/\u65B0\u5EFA\u6587\u4EF6\u5939 (2)/GGJ_TBA.exe"
